@@ -1,6 +1,14 @@
+html {
+    background-color: #f3f1e8;
+}
+body {
+    padding: 0 10%;
+}
 nav {
     display: flex;
     justify-content: space-around;
+    justify-content: flex-end;
+    color: #9b4819;
   }
   ul {
     list-style: none;
@@ -17,16 +25,28 @@ nav {
   .banner{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
+    max-height: 700px;
+    max-width: auto;
 
   }
+  h1 {
+    color: #9b4819;
+    font-family: 'Raleway', sans-serif;
+  }
   .side-image img{
-    max-width: 250px;
+    max-width: 100%;
+    max-height: 400px;
+    min-width: 150px;
     
   }
   .side-image{
-    padding-right: 25px;
+    max-width: 100%;
+    max-height: auto;
+    padding: 5%;
+    
   }
   article{
-    padding-left: 25px;
+    padding: 10% 10% 10% 5%;
   }
