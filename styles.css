@@ -23,6 +23,7 @@ nav {
     text-decoration: underline;
   }
   .banner{
+    background-color: #f5f4ee;
     display: flex;
     justify-content: center;
     align-items: center;
