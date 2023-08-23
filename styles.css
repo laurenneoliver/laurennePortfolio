@@ -32,17 +32,44 @@ nav {
     max-width: auto;
 
   }
+  @keyframes left_to_right {
+    from {
+      margin-left: -40%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+  @keyframes right_to_left {
+    from {
+      margin-left: 30%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+ 
   h1 {
+    overflow: hidden;
+    animation: left_to_right 3s ease;
     color: #9b4819;
     font-family: 'Raleway', sans-serif;
   }
-  .side-image img{
+  .banner p {
+    overflow: hidden;
+    animation: right_to_left 3s ease;
+  }
+  footer p {
+    overflow: hidden;
+    animation: left_to_right 3s ease;
+  }
+  .side-profile video{
     max-width: 100%;
     max-height: 400px;
     min-width: 150px;
     
   }
-  .side-image{
+  .side-profile{
     max-width: 100%;
     max-height: auto;
     padding: 5%;
