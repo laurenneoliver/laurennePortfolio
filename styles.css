@@ -81,3 +81,19 @@ nav {
   article{
     padding: 10% 10% 10% 5%;
   }
+  iframe {
+    text-align: center;
+  }
+  .gallery {
+    display: flex;
+    align-items: center;
+  }
+  h2 {
+    color: #9b4819;
+    animation: left_to_right 2s ease;
+  }
+
+  .program-display {
+    display: flex;
+    align-items: center;
+  }
