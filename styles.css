@@ -14,7 +14,10 @@ nav {
     list-style: none;
     margin: 0;
   }
-  
+  a {
+    color: #9b4819;
+    text-decoration: none;
+  }
   li {
     display: inline-block;
     padding: .75rem 1.25rem;
