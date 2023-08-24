@@ -8,14 +8,14 @@ nav {
     display: flex;
     justify-content: space-around;
     justify-content: flex-end;
-    color: #9b4819;
+    color: rgb(175, 143, 100);
   }
   ul {
     list-style: none;
     margin: 0;
   }
   a {
-    color: #9b4819;
+    color: rgb(175, 143, 100);
     text-decoration: none;
   }
   li {
@@ -59,7 +59,7 @@ nav {
   h1 {
     overflow: hidden;
     animation: left_to_right 3s ease;
-    color: #9b4819;
+    color: rgb(175, 143, 100);;
     font-family: 'Raleway', sans-serif;
   }
   article h1 {
@@ -161,3 +161,27 @@ nav {
     animation: left_to_right_contact 3s ease;
     text-align: center;
   }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+  h3 {
+    animation: fadeInAnimation 3s ease;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(175, 143, 100);
+  }
+  .skills-heading {
+    display: flex;
+    justify-content: center;
+  }
+#computer {
+    padding-right: 20px;
+    width: 60px;
+    height: auto;
+}
+
