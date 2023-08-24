@@ -62,7 +62,9 @@ nav {
     color: rgb(175, 143, 100);;
     font-family: 'Raleway', sans-serif;
   }
- 
+  article h1 {
+    font-size: 30px;
+  }
   .banner p {
     overflow: hidden;
     animation: right_to_left 3s ease;
