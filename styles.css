@@ -58,6 +58,9 @@ nav {
     color: #9b4819;
     font-family: 'Raleway', sans-serif;
   }
+  article h1 {
+    font-size: 30px;
+  }
   .banner p {
     overflow: hidden;
     animation: right_to_left 3s ease;
@@ -79,7 +82,7 @@ nav {
     
   }
   article{
-    padding: 10% 10% 10% 5%;
+    padding: 5%;
   }
   iframe {
     text-align: center;
@@ -96,4 +99,49 @@ nav {
   .program-display {
     display: flex;
     align-items: center;
+  }
+  .contact-us {
+    display: flex;
+    justify-items: center;
+  }
+  form {
+    width: 100%;
+    max-width: 600px;
+    padding: auto;
+    margin: auto;
+  }
+  #fname {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+  }
+  #femail {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+  }
+  #subject {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+  }
+  #text-box {
+    font-size: 18px;
+  }
+  #contact-body {
+    padding: auto;
+  }
+  @keyframes left_to_right_contact {
+    from {
+        margin-left: -40%;
+      }
+      to {
+        margin-left: auto;
+      }
+    }
+  
+  #contact-h1 {
+    padding: auto;
+    animation: left_to_right_contact 3s ease;
+    text-align: center;
   }
