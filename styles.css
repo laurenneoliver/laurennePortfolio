@@ -73,14 +73,15 @@ nav {
     overflow: hidden;
     animation: left_to_right 3s ease;
   }
-  .side-profile video{
+  .side-profile img{
+    background-image: url(profile_no_background.png);
+    background-size: cover;
     max-width: 100%;
     max-height: 400px;
     min-width: 150px;
     
   }
   .side-profile{
-    background-color: #f5f4ee;
     max-width: 100%;
     max-height: auto;
     padding: 5%;
