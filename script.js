@@ -26,7 +26,8 @@ let leftArrowProgram = document.getElementById('left-arrow-program');
 let rightArrowPorgram = document.getElementById('right-arrow-program');
 
 let programs = ['https://gist.github.com/laurenneoliver/fad062ae77940c38ee82322f0abc63af.js','https://gist.github.com/laurenneoliver/ec55ffa1919e4b5aa92e329dd89a9578.js']
-let programTag = document.querySelector('gist');
+
+let programTag = document.getElementById('program-data');
 
 function nextProgram() {
     if (i >= programs.length - 1) {
