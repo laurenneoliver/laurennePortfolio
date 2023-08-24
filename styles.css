@@ -27,6 +27,10 @@ nav {
   }
   .banner{
     background-color: #f5f4ee;
+    background-image: url(banner_background.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +80,7 @@ nav {
     
   }
   .side-profile{
+    background-color: #f5f4ee;
     max-width: 100%;
     max-height: auto;
     padding: 5%;
