@@ -4,6 +4,14 @@ html {
 body {
     padding: 0 10%;
 }
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -40,6 +48,7 @@ nav {
 
   }
   #skills-container {
+    animation: fadeInAnimation 3s ease-in;
     display: flex;
     flex-wrap: wrap;
   }
@@ -179,14 +188,7 @@ nav {
     animation: left_to_right_contact 3s ease;
     text-align: center;
   }
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
+
   h3 {
     animation: fadeInAnimation 3s ease;
     font-size: 30px;
