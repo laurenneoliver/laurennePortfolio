@@ -92,7 +92,8 @@ nav {
     font-family: 'Raleway', sans-serif;
   }
   article h1 {
-    font-size: 30px;
+    font-size: 2em;
+    width: 100%;
   }
   .banner p {
     overflow: hidden;
@@ -117,6 +118,7 @@ nav {
     
   }
   article{
+    width: 100%;
     padding: 5%;
   }
   iframe {
