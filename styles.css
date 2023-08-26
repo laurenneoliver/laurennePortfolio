@@ -51,6 +51,8 @@ nav {
     animation: fadeInAnimation 3s ease-in;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .skills {
     display: flex;
