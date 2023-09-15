@@ -1,3 +1,19 @@
+const navBar = document.querySelector("nav");
+const menuBtns = document.querySelectorAll(".menu-icon");
+const overlay = document.querySelectorAll(".overlay");
+
+menuBtns.forEach((menuBtns) => {
+    menuBtns.addEventListener("click", () => {
+        navBar.classList.toggle("open");
+    });
+});
+
+overlay.addEventListener("click", () => {
+    navBar.classList.remove("open");
+});
+
+
+
 let websites = ['https://laurenneoliver.github.io/Tsunami-Coffee-Website/','https://laurenneoliver.github.io/Colmar-Academy-Website/']
 let webTag = document.querySelector('iframe');
 let leftArrow = document.getElementById('left-arrow');

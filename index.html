@@ -11,14 +11,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <header>
     <nav>
+        <div class="logo">
+            <span class="logo-name">Laurenne's Website</span>
+            <i class='bx bx-menu menu-icon'></i>
+        </div>
+        <div class="sidebar">
+            <div class="logo">
+                <span class="logo-name">Laurenne's Website</span>
+                <i class='bx bx-menu menu-icon'></i>
+            </div>
+
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="link">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="portfolio.html" class="nav-link">
+                            <i class='bx bx-folder-open icon'></i>
+                            <span class="link">Portfolio</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="contact.html" class="nav-link">
+                            <i class='bx bxs-contact icon'></i>
+                            <span class="link">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+         -->
     </nav>
   </header>
   <body>
+    <section class="overlay"></section>
     <div class="banner">
         <article>
             <h1>Welcome to my website!</h1>
@@ -43,7 +79,8 @@
         <div class="skills"><img src="github-icon.png"><p>github</p></div>
     </div>
     <footer>
-        <p>Made with <span>love</span> by Laurenne Oliver</p>
+        <p>Made with <span class="love">love</span> by Laurenne Oliver</p>
     </footer>
+    <script src="script.js"></script>
     </body>
 </html>
