@@ -43,7 +43,7 @@ nav .sidebar {
   padding: 20px 0;
   background-color: #ffffff;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-  transition: al 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 nav.open .sidebar{
   right: 0;
@@ -95,12 +95,15 @@ nav.open .sidebar{
   right: -100%;
   height: 1000vh;
   width: 100%;
+  opacity: 0;
   background: rgba(0,0,0,0.3);
   transition: all 0.4s ease-in-out;
   pointer-events: none;
 }
 nav.open ~ .overlay{
+  opacity: 1;
   right: 260px;
+  pointer-events: auto;
 }
   .banner{
     background-color: #f5f4ee;

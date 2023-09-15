@@ -1,6 +1,6 @@
 const navBar = document.querySelector("nav");
 const menuBtns = document.querySelectorAll(".menu-icon");
-const overlay = document.querySelectorAll(".overlay");
+const overlay = document.querySelector(".overlay");
 
 menuBtns.forEach((menuBtns) => {
     menuBtns.addEventListener("click", () => {
