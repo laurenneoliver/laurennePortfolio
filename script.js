@@ -23,7 +23,7 @@ rightArrow.onclick = next;
 leftArrow.onclick = previous;
 
 let leftArrowProgram = document.getElementById('left-arrow-program');
-let rightArrowPorgram = document.getElementById('right-arrow-program');
+let rightArrowProgram = document.getElementById('right-arrow-program');
 
 let programs = ['https://gist.github.com/laurenneoliver/fad062ae77940c38ee82322f0abc63af.js','https://gist.github.com/laurenneoliver/ec55ffa1919e4b5aa92e329dd89a9578.js']
 
@@ -44,5 +44,5 @@ function previousProgram() {
     programTag.setAttribute('src', programs[i]);
 } 
 
-rightArrowPorgram.onclick = nextProgram;
+rightArrowProgram.onclick = nextProgram;
 leftArrowProgram.onclick = previousProgram;
