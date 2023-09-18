@@ -100,7 +100,7 @@ nav.open .sidebar{
   transition: all 0.4s ease-in-out;
   pointer-events: none;
 }
-nav.open ~ .overlay{
+nav.open .overlay{
   opacity: 1;
   right: 260px;
   pointer-events: auto;
