@@ -14,6 +14,17 @@ body {
       opacity: 1;
    }
 }
+header{
+  display: flex;
+}
+.logo-image {
+  position: fixed;
+  height: 70px;
+  left: 40px;
+}
+.logo-image img {
+  height: 100%;
+}
 nav {
     position: fixed;
     top: 0;
