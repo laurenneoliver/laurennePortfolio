@@ -211,8 +211,6 @@ nav.open .overlay{
     align-items: center;
   }
   h2 {
-    display: flex;
-    justify-content: center;
     color: #845840;
     animation: left_to_right 2s ease;
     font-weight: 400;
