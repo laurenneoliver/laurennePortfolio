@@ -116,20 +116,18 @@ nav.open .overlay{
   right: 260px;
   pointer-events: auto;
 }
-  .banner{
-    background-color: #f5f4ee;
-    background-image: url(banner_background.png);
-    background-repeat: no-repeat;
-    background-size: 110%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-height: 700px;
-    max-width: auto;
-
-  }
+.banner{
+  background-color: #f5f4ee;
+  background-image: url(banner_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
   #skills-container {
     animation: fadeInAnimation 3s ease-in;
     display: flex;
@@ -175,11 +173,13 @@ nav.open .overlay{
     font-family: 'Raleway', sans-serif;
   }
   article h1 {
-    width: 100%;
+    font-size: 3vw;
   }
   .banner p {
     overflow: hidden;
     animation: right_to_left 3s ease;
+    font-size: 1.5vw;
+    color: #544036;
   }
   footer p {
     overflow: hidden;
